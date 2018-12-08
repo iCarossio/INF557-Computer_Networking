@@ -1,0 +1,8 @@
+Interoperability Testing
+
+1) We tried our module "at home" with our own implementation running on 2 computers. We did not notice any issue.
+
+2) At the beginning of these second TD, we launched in class the same test, plus we hoped than some fellow comrades would do the same with their own implementation. Actually it happened. 
+	- Some of them tried to trick our HelloMessage parser by sending improperly and we noticed that we actually forgot to catch exceptions coming from the HelloMessage class! Thus we added this functionality in HelloReceiver. It worked quite well and we were able to communicate with them.
+	- We also tried to send and receive many different kinds of HelloMessages (see test/TestExo3 to see a sample of them), and it worked after the previous correction.
+	- We were also able to try the bonus exercise with telnet localhost 4243 and it worked properly.
